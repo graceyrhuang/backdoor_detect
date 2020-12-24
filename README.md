@@ -36,7 +36,11 @@ Yichen Wang(yw4604)
 * `test_data_filename` =>customized clean test data path
 * `poison_data_filename`=>customized poison data path
 
+`Fine_Pruning_activation_based.ipynb`
 
+* `clean_data_filename` => customized clean validation data path
+* `test_data_filename` =>customized clean test data path
+* `poison_data_filename`=>customized poison data path
 
 `Entropy_filter.ipythnb`
 
@@ -79,6 +83,7 @@ All files can run idenpendently and with differnt purpose.
 | ----------------------------------- | -------------------------- | ------------------- | ----------- |
 | `neural_clease.ipythnb`             | `<Badnet, Clean_Data>`     | `potential_trigger` |             |
 | `Fine_Pruning_Weight_Pruning.ipynb` | `<Badnet, Clean_Data>`     | `Repaired_Model`    |             |
+| `Fine_Pruning_activation_based.ipynb` | `<Badnet, Clean_Data>`     | `Repaired_Model`    |             |
 | `Entropy_filter.ipythnb`            | `Badnet`                   |                     |             |
 | `BBD.ipythnb`                       | `<Badnet, Repaired Model>` |                     |             |
 
