@@ -1,6 +1,6 @@
 # BBD:Bimodel Backdoor Defence
 
-BBD is a Backdoor Defence Technique design for correctly recognize clean data and identify poisoned data as `N+1` Label.
+BBD is a Backdoor Defence Technique design for correctly recognize clean data and identify poisoned data as `N+1` Label.  To see the implementation, please open `src/BBD.ipythnb`,  and run file
 
 ## Group Member
 
@@ -26,9 +26,9 @@ Yichen Wang(yw4604)
 
 `h5py`
 
-## Run Instruction 
+## HOWTO
 
- To run source code in `/src`, please files in Jupyter Notebook and modify data and model path into customized path.
+ To run source code in `/src`, please open codefiles in Jupyter Notebook and modify data and model path into your own customized path.
 
 `Fine_Pruning_Weight_Pruning.ipynb`
 
@@ -84,6 +84,6 @@ All files can run idenpendently and with differnt purpose.
 | `neural_clease.ipythnb`             | `<Badnet, Clean_Data>`     | `potential_trigger` |             |
 | `Fine_Pruning_Weight_Pruning.ipynb` | `<Badnet, Clean_Data>`     | `Repaired_Model`    |             |
 | `Fine_Pruning_activation_based.ipynb` | `<Badnet, Clean_Data>`     | `Repaired_Model`    |             |
-| `Entropy_filter.ipythnb`            | `Badnet`                   |                     |             |
-| `BBD.ipythnb`                       | `<Badnet, Repaired Model>` |                     |             |
+| `Entropy_filter.ipythnb`            | `<Pruned Badnet, Clean_Data, Poison_Data>` | `Entropy Filter` |             |
+| `BBD.ipythnb`                       | `<Badnet, Repaired Model>` | `Expected Classification` |             |
 
