@@ -4,7 +4,7 @@ BBD is a Backdoor Defence Technique design for correctly recognize clean data an
 
 ## Group Member
 
-Yunrui Huang(yh2910)
+Yuanrui Huang(yh2910)
 
 Yihong Wang(yw3408)
 
